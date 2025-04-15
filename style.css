@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    font-family: times new roman;
+    color: grey;
+    box-sizing: border-box;
+}
+.i {
+    color: red;
+}
+.non {
+	color:white;
+}
+.lq {
+	color: #007DFF;
+}
+.rq {
+	color: #AFFF00;
+}
+.u {
+    color: cyan;
+}
+.b {
+    color: yellow;
+}
+.blq {
+    color: magenta;
+}
+.sub {
+    color: green;
+}
+.sup {
+	color: orange;
+	}
+p span {
+    color: green;
+}
+h2 {
+    color: crimson;
+}
+.spes {
+    color: #FF0078;
+}
+.nes {
+    color: #66FFB3;
+    text-align: center;
+}
+.wrt {
+	color: green;
+}
+.sus {
+	color: red;
+}
+
+/* Pengaturan video cover agar tidak bergerak saat di-zoom */
+.cover video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw; /* Memastikan video menutupi lebar viewport */
+    height: 100vh; /* Memastikan video menutupi tinggi viewport */
+    object-fit: cover; /* Menjaga proporsi video agar selalu penuh */
+    z-index: -1;
+    filter: brightness(0.6);
+}
+
+.content {
+    z-index: 1;
+    position: relative;
+    padding: 20px;
+    background-color: rgba(29, 29, 29, 0.8); /* Transparansi background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+}
